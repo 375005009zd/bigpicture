@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>图片放大</title>
+</head>
+<body>
+  <div style=" position:relative; width: 400px; border: 1px solid #000;" id="imgBox">
+   <div style="width:150px;height:100px;background:#ffc10733;position: absolute;display: none" id="magnifierMark"> 	
+   </div>
+  	<figure style=" margin: 0;">
+  		<img src="./macbook-small.jpg">
+  	</figure>
+  </div>
+  <div style=" position: relative; left: 500px; top: -200px; border: 1px solid #000; width: 400px; height: 267px; overflow: hidden;" id="magnifierBox">
+  	<figure  style=" margin: 0; width: 800px;position: absolute;">
+  		<img src="./macbook-big.jpg" style=" width: 1067px;">
+  	</figure>	
+  </div>
+  <script type="text/javascript" src="./index.js"></script>
+</body>
+</html>
